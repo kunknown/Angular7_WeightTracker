@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IdentityService } from './identity.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bucket-list';
+  constructor (public identitySvc: IdentityService) {}
 }
