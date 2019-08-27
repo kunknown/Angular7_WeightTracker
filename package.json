@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "json-server": "json-server",
     "server": "json-server --watch db.json --routes routes.json"
   },
   "private": true,
